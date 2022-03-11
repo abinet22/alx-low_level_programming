@@ -11,14 +11,14 @@
  */
 int main(void)
 {
-int l;
+int l = 0;
 int r;
 
-for (l = 0; l <= 9; l++)
+while (l <= 9)
 {
-r = l * pow (10, 0);
-printf ("%i", r);
-
+r = l * pow(10, 0);
+printf("%i", r);
+l++;
 }
 return (0);
 }
