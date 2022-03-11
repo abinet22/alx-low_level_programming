@@ -30,10 +30,12 @@ int main(void)
 		}
 	    l++;
     }
-       x++;
-      
+   
+    
+       l = i + x;
+         
        i++;
-        l = i + x;
+       x++;
 	}
 	putchar('\n');
 
