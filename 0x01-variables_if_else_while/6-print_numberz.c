@@ -10,6 +10,15 @@
  */
 int main(void)
 {
-putchar('0123456789\n');
-return (0);
+	int i;
+
+	i = 48;
+	while  (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+
+	return (0);
 }

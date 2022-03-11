@@ -10,12 +10,23 @@
  */
 int main(void)
 {
-int l = 0;
+	int i;
+	char l;
 
-while (l < 10)
-{
-putchar("%x %d\n", l, l);
-}
-putchar('\n');
-return (0);
+	i = 48;
+	while  (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+
+	l = 'a';
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
+	putchar('\n');
+
+	return (0);
 }

@@ -10,13 +10,24 @@
  */
 int main(void)
 {
-int l = 0;
+	int i;
 
-while (l < 10)
-{
-putchar(l,", ");
-l++;
-}
-putchar('\n');
-return (0);
+	i = 48;
+	while  (i < 58)
+	{
+		putchar(i);
+		if (i !=  57)
+		{
+			putchar(44);
+			putchar(32);
+			i++;
+		}
+		else
+		{
+			i++;
+		}
+	}
+	putchar('\n');
+
+	return (0);
 }
