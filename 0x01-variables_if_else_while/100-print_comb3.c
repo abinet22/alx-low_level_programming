@@ -31,8 +31,9 @@ int main(void)
 	    l++;
     }
        x++;
-       l = i + x;
+      
        i++;
+        l = i + x;
 	}
 	putchar('\n');
 
