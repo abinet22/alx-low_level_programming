@@ -31,7 +31,7 @@ int main(void)
 	    l++;
     }
        x++;
-       l = 48 + x;
+       l = i + x;
        i++;
 	}
 	putchar('\n');
