@@ -15,11 +15,13 @@ char m;
 
 	l = 'a';
     m = 'A';
+    
 	while (l <= 'z')
 	{
 		putchar(l);
 		l++;
 	}
+    
     while (m <= 'Z')
 	{
 		putchar(m);
