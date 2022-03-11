@@ -14,11 +14,11 @@ int main(void)
 int l;
 int r;
 
-for(l=0;l<=9;l++)
+for (l = 0; l <= 9; l++)
 {
-r = l * pow(10, 0);
-printf ("%i \n", r);
-l++; 
+r = l * pow (10,0);
+printf (r);
+
 }
 return (0);
 }
