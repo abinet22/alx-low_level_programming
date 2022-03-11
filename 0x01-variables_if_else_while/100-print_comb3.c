@@ -17,12 +17,12 @@ int main(void)
     x = 0;
 	while  (i < 58)
 	{
-    x++;
+  
     while (l < 58)
 	{
         putchar(i);
         putchar(l);
-       	if (l !=  57)
+       	if (l !=  58)
 		{
           	putchar(44);
 			putchar(32);
@@ -30,6 +30,7 @@ int main(void)
 		}
 	    l++;
     }
+       x++;
        l = 48 + x;
        i++;
 	}
