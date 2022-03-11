@@ -16,7 +16,7 @@ int r;
 for(l=0;l<=9;l++)
 {
 r = l/10;
-printf("\n", r);
+printf("%i \n", r);
 l++;
 }
 return (0);
