@@ -21,7 +21,7 @@ int main(void)
     
     while (l < 58)
 	{
-        l = i + x;
+        l = l + x;
         putchar(i);
         putchar(l);
       	  
@@ -33,7 +33,7 @@ int main(void)
 		}
         else{
         l++;
-        x++;
+      
         }
     }
     i++;
