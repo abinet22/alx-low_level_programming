@@ -15,17 +15,15 @@ char m;
 
 	l = 'a';
     m = 'A';
-    
 	while (l <= 'z')
 	{
-		putchar(l);
-		l++;
-	}
-    
+	putchar(l);
+	l++;	
+	}   
     while (m <= 'Z')
 	{
-		putchar(m);
-		m++;
+	putchar(m);
+	m++;
 	}
 	putchar('\n');
 return (0);
