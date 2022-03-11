@@ -14,8 +14,9 @@ int main(void)
 int l = 0;
 int r;
 
-while (l < 10)
+while (l <= 10)
 {
+if ( l < 10 )
 r = l * pow(10, 0);
 printf("%i", r);
 l++;
