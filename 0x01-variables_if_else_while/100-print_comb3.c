@@ -10,36 +10,24 @@
  */
 int main(void)
 {
-	int i,l,x;
 
-	i = 48;
-    l = 48;
-    x = 0;
-	while  (i < 58)
+	int digit1, digit2;
+
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-  
-    
-    while (l < 58)
-	{
-        l = l + x;
-        putchar(i);
-        putchar(l);
-      	  
-        if (l !=  58)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-          	putchar(44);
-			putchar(32);
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
+
+			if (digit1 == 8 && digit2 == 9)
+				continue;
 			
+			putchar(',');
+			putchar(' ');
 		}
-        else{
-        l++;
-      
-        }
-    }
-    i++;
-    x++;
-     
 	}
+
 	putchar('\n');
 
 	return (0);
