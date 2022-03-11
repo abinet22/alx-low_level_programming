@@ -10,13 +10,14 @@
  */
 int main(void)
 {
-	int i,l;
+	int i,l,x;
 
 	i = 48;
     l = 48;
+    x = 0;
 	while  (i < 58)
 	{
-       
+    x++;
     while (l < 58)
 	{
         putchar(i);
@@ -25,11 +26,11 @@ int main(void)
 		{
           	putchar(44);
 			putchar(32);
-			l++;
+			
 		}
-	 
+	    l++;
     }
-       l = 48 + i ;
+       l = 48 + x;
        i++;
 	}
 	putchar('\n');
