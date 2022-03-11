@@ -21,20 +21,19 @@ int main(void)
 	{
         putchar(i);
         putchar(l);
-        putchar(44);
-		putchar(32);
-	    l++;
-    }
-    	if (i !=  57)
+    	if (l !=  57)
 		{
 			putchar(44);
 			putchar(32);
-			i++;
+			l++;
 		}
 		else
 		{
-			i++;
+			l++;
 		}
+	 
+    }
+       i++;
 	}
 	putchar('\n');
 
