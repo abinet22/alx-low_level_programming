@@ -10,15 +10,16 @@
  */
 int main(void)
 {
-	int i;
+	int i,l;
 
 	i = 48;
+    l = 48;
 	while  (i < 58)
 	{
-    for (int l = 48; l < 58; l++)
+    while (l < 58)
 	{
         putchar(il);
-	
+	    l++;
     }
     	if (i !=  57)
 		{
