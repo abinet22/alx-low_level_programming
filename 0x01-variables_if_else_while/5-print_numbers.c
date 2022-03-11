@@ -11,12 +11,11 @@
  */
 int main(void)
 {
-int l = 0;
+int l;
 int r;
 
-while (l <= 10)
+for (l = 0; l <= 10; l++)
 {
-if ( l < 10 )
 r = l * pow(10, 0);
 printf("%i", r);
 l++;
