@@ -18,8 +18,10 @@ int main(void)
 	while  (i < 58)
 	{
   
+    l = i + x;
     while (l < 58)
 	{
+       
         putchar(i);
         putchar(l);
        	if (l !=  58)
@@ -31,9 +33,6 @@ int main(void)
 	    l++;
     }
    
-    
-       l = i + x;
-         
        i++;
        x++;
 	}
