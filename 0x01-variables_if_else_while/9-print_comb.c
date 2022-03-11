@@ -10,6 +10,13 @@
  */
 int main(void)
 {
-putchar('0123456789\n');
+int l = 0;
+
+while (l < 10)
+{
+putchar(l,", ");
+l++;
+}
+putchar('\n');
 return (0);
 }

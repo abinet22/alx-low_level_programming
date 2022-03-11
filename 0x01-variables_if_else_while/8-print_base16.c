@@ -10,6 +10,12 @@
  */
 int main(void)
 {
-putchar('0123456789\n');
+int l = 0;
+
+while (l < 10)
+{
+putchar("%x %d\n", l, l);
+}
+putchar('\n');
 return (0);
 }

@@ -10,6 +10,14 @@
  */
 int main(void)
 {
-putchar('0123456789\n');
+char l;
+
+	l = 'z';
+	while (l >= 'a')
+	{
+		putchar(l);
+		l--;
+	}
+	putchar('\n');
 return (0);
 }
