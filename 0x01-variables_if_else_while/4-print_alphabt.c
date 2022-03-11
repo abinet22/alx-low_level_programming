@@ -15,6 +15,7 @@ char l;
 l = 'a';
 while (l <= 'z')
 {
+
 if(l == 'q' || l == 'e')
 {
 
