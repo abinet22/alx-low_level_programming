@@ -27,25 +27,25 @@ i++;
 }
 else
 {
-putchar(44); 
+putchar(44);
 putchar(32);
 if ((k == 57) && (l == 57))
 {
 if (j < 56)
 {
-l = ++j + 1; 
+l = ++j + 1;
 k = i;
 }
 else if (j == 56)
 {
-j++; 
-k = i + 1; 
+j++;
+k = i + 1;
 l = 48;
 }
 else if (j == 57)
 {
-j = 48; 
-l = 49; 
+j = 48;
+l = 49;
 k = ++i;
 }
 }
