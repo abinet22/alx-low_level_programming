@@ -18,23 +18,27 @@ int main(void)
 	while  (i < 58)
 	{
   
-    l = i + x;
+    
     while (l < 58)
 	{
-       
+        l = i + x;
         putchar(i);
         putchar(l);
-       	if (l !=  58)
+      	  
+        if (l !=  58)
 		{
           	putchar(44);
 			putchar(32);
 			
 		}
-	    l++;
+        else{
+        l++;
+        x++;
+        }
     }
-   
-       i++;
-       x++;
+    i++;
+    x++;
+     
 	}
 	putchar('\n');
 
