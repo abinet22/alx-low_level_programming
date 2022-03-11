@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <math.h>
 
 /* betty style doc for function main goes there */
 /**
@@ -15,9 +16,9 @@ int r;
 
 for(l=0;l<=9;l++)
 {
-r = l/10;
-printf("%i \n", r);
-l++;
+r = l * pow(10, 0);
+printf ("%i \n", r);
+l++; 
 }
 return (0);
 }
