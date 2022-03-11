@@ -17,7 +17,7 @@ int r;
 for (l = 0; l <= 9; l++)
 {
 r = l * pow (10,0);
-printf (r);
+printf ("%i",r);
 
 }
 return (0);
