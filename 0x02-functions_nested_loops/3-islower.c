@@ -7,9 +7,9 @@
  */
 int _islower(h)
 {
-    int r;
+    int r = h;
     int i;
-    r = h
+   
     	for (i = 'a'; i <= 'z'; i++)
         {
             if (r == i)
