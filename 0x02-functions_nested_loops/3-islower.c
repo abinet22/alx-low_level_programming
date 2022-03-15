@@ -5,11 +5,11 @@
  *
  * Return: Always 0.
  */
-int _islower('H')
+int _islower(h)
 {
     int r;
     int i;
-    r = 'H'
+    r = h
     	for (i = 'a'; i <= 'z'; i++)
         {
             if (r == i)
