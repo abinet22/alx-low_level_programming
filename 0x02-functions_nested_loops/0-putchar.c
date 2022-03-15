@@ -2,6 +2,7 @@
 
 /* betty style doc for function main goes there */
 /**
+ * Description: Prints _putchar with _putchar
  * main: Prints _putchar with _putchar
  * Return: Always 0 (Success)
  */
