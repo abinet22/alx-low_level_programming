@@ -3,20 +3,20 @@
 /* betty style doc for function main goes there */
 /**
  * Description: Prints _putchar with _putchar
- *
+ * Short Description: function main header function _putchar 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    int i = 0;
-    char c;
-    char s[] = "_putchar\n";
-    while (i < 9)
-	{
-		c = s[i];
-		_putchar(c);
-		i++;
-	}
+int i = 0;
+char c;
+char s[] = "_putchar\n";
+while (i < 9)
+{
+c = s[i];
+_putchar(c);
+i++;
+}
 
-	return (0);
+return (0);
 }
