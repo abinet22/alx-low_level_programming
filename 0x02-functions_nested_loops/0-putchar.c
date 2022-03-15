@@ -1,6 +1,6 @@
 #include "main.h"
 
-/* betty style doc for function main goes there */
+
 /**
  * main: Prints _putchar with _putchar
  * Description: Prints _putchar with _putchar
