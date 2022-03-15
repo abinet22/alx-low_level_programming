@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - check the code.
  *
  * Return: Always 0.
  */
-int main(void)
+int _islower('H')
 {
     int r;
-
-    r = _islower('H');
+    int i;
+    r = 'H'
     	for (i = 'a'; i <= 'z'; i++)
         {
             if (r == i)
