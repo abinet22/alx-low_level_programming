@@ -7,6 +7,15 @@
  */
 int main(void)
 {
+    char l;
+
+	l = 'a';
+	while (l <= 'z')
+	{
+		putchar(l);
+		l++;
+	}
+	putchar('\n');
     print_alphabet();
     return (0);
 }
