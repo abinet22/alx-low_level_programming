@@ -27,7 +27,7 @@ i++;
 }
 else
 {
-putchar(44); 
+putchar(44);
 putchar(32);
 if ((k == 57) && (l == 57))
 {
