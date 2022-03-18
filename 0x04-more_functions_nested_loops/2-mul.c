@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _isdigit - Checks  for a digit (0 through 9).
- * @a: The character to be checked.
- * @b: The character to be checked.
+ * mul - multiplies two integers
+ * @a: first integer
+ * @b: second integer
  *
- * Return: 1 if is a digit, 0 otherwise.
+ * Return: addition of a and b
  */
-int mul(int a,int b)
+
+int mul(int a, int b)
 {
-return (a * b);
+	return (a * b);
 }
