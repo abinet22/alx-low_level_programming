@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_diagsums - print sum of 2 digona
+ * print_diagsums - print sum of 2 diagonals
  * @a:int
  * @size:int size
  * Return:void
