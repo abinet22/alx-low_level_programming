@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strspn - get the lenght of prefix substring
+ * _strspn - get the length of prefix substring
  * @s:string
  * @accept:string
  * Return:unsigned int
