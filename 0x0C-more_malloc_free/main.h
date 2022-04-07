@@ -1,10 +1,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x0C-more_malloc_free directory.
- */
+#include <stdlib.h>
+#include <stddef.h>
+#include <string.h>
+#include <stdio.h>
+#include <limits.h>
+
 
 int _putchar(char c);
 void *malloc_checked(unsigned int b);
@@ -13,4 +15,4 @@ void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
-#endif
+#endif /* MAIN_H */
