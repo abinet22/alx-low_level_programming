@@ -14,4 +14,3 @@ main:
 	mov rdi, 0
 
 	syscall
-    
